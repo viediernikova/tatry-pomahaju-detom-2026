@@ -20,7 +20,7 @@ window.SITE_DATA = {
     email: "radoslavhyza@gmail.com",
     facebookUrl: "https://www.facebook.com/radoslav.hyza/",
     instagramUrl: "https://www.instagram.com/radoslavhyza/",
-    ludialudomUrl: "https://ludialudom.sk/vyzvy/neschvalena/18505",
+    ludialudomUrl: "https://www.ludialudom.sk/vyzvy/18505",
     transparentAccountUrl: "https://www.transparentneucty.sk/#/ucet/SK2209000000005221139164"
   },
 
@@ -67,7 +67,7 @@ window.SITE_DATA = {
         iconType: "heart",
         desc: "Možnosť prispieť pohodlne kartou cez platobnú bránu.",
         linkText: "Prejsť na zbierku ĽudiaĽuďom ↗",
-        linkUrl: "https://ludialudom.sk/vyzvy/neschvalena/18505"
+        linkUrl: "https://www.ludialudom.sk/vyzvy/18505"
       },
       {
         type: "share",
@@ -168,35 +168,70 @@ window.SITE_DATA = {
     ]
   },
 
-  // Zoznam dní denníka: Deň 1 je najnovší testovací záznam, Úvod je predštartový príspevok
+  // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
     {
-      id: "day-1",
-      dayNumber: 1,
-      date: "7. september 2026",
-      location: "Ždiar ➔ Chata pri Zelenom plese",
-      title: "Štart expedície a stúpanie k Zelenému plesu",
-      text: `Ráno o 7:00 sme úspešne odštartovali zo Ždiaru. Počasie zatiaľ drží, hoci ranný vzduch v Belianskych Tatrách bol poriadne mrazivý.
+      id: "day-0",
+      dayNumber: 0,
+      date: "6. september 2026",
+      location: "Trnava ➔ Poprad ➔ Ždiar",
+      title: "Deň 0: Presun vlakom a busom cez Poprad do Ždiaru",
+      text: `TATRY POMÁHAJÚ DEŤOM 🏔️👊
 
-Prvý úsek dolinou dal nohám zabrať, no výhľady na monumentálnu stenu Malého Kežmarského štítu sú neopísateľné. Na Chate pri Zelenom plese dávame krátky oddych, teplý horský čaj a zajtra skoro ráno pokračujeme smerom na Jahňací štít.
+Deň 0: presun vlakom a busom cez Poprad do Ždiaru.
+Posledný týždeň bol veľmi hektický, príprava bola ťažká, hlavne vybrať správne rodinky s chorými deťmi a organizácie bolo náročné. Do toho rôzne iné veci, napríklad riešenie novej techniky na foto video dokumentáciu a pod. 🙂
 
-Každý kilometer dnes bolel, no vedomie, že týmto pomáhame deťom, dáva obrovskú silu pokračovať!`,
+V prvom rade by som chcel poďakovať mojej láske Katke, že mi umožnila ísť na túto cestu. Taktiež Radkovi za podporu a aj svojmu zamestnávateľovi ZVJS za poskytnutie voľna 🙂
+
+Možno sa pýtate prečo som nešiel skôr, keď bolo ako tak fajn počasie v Tatrách. Nedalo sa z rodinno pracovných dôvodov. Takto pred 2 rokmi som štartoval Cestu SNP a dnes v podstate Tatry.
+
+Včera som ešte zarezával v robote a dnes ráno sa vrhol na balenie. Všetko som si nachystal a snažil sa ako tak naukladať do batohu 😀 Poznáte to.
+Najviac zabralo miesto páperový spacák. Radšej som zobral teplý, človek nikdy nevie. Samozrejme nechýbajú ani zimné doplnky 🥶
+
+Po obede sme šli na stanicu v Trnave. Samozrejme ako na potvoru sa mi nedal kúpiť lístok na vlak cez mobil 😀 Ale našťastie miláčikovi áno. Reku kúp mi miestenku vagón číslo 9, ten je posledný. Jasné že po príchode Šinkansena sme zistili že to je prvý vagón. Tak šmygaj behom cez celé nástupište dopredku. Ťažko sa mi lúčilo ❤️😢
+Vo vlaku sa pýtam sprievodcu na pifko, prevelikú chuť som mal. Ale fakt veľkú. Zadrel že reštauračný vagón je na opačnom konci. Win win situácia 😂 No nič, párkrát som preglgol nasucho a potom som sa terigal cez celý vlak. Vôbec ma pri chôdzi nehádzalo, veď naše vlaky chodia akoby levitovali... 😀
+Práskol som si 2 Plzne a zobral ešte 1 plechovku.
+
+Na počudovanie vlak nabral stratu pár minút až v Štrbe. V Poprade som šiel na autobus. Naše verejné priestory, autobusová stanica sú vesmes ultrahyper moderné priestory. Ale tak z Vízie 1974...
+
+Po 22 rokoch som sa ocitol v Ždiari. Pekná dedinka a ešte krajší pohľad na Belianske Tatry. Privítalo ma pár oviec s ktorými som pokecal a pohľad na Kopské sedlo kam idem zajtra. Ubytoval som sa v peknom penzióne Sova za super cenu, 38 eur s raňajkami 🙂
+Na večeru som si dal držkovú polievku do mojej držky a Urpiner 😊
+
+Až cestou som zistil že som si doma zabudol návleky 😀 No čo, už som starý človek. Ale myslím že to poriešim v Smokovci.
+
+Ešte si nachystám veci na izbe na zajtra a pôjdem na to. Čo sa týka trasy. Ideálne je to spraviť za 11 dní. Ale človek mieni a počasie mení. Od štvrtka hlásia všelijaké počasie, takže rátam s prestojmi, zmenou trasy a neviem čo ešte bude. Nevadí, čo už. Pôjdem postupne krok za krokom.
+
+Nie je dôležité koľko kopcov vyjdem, ale ako pomôžem deťom, ktoré naozaj tú pomoc potrebujú 😉🤗🙏
+Môžte už prispievať. V mene všetkých detí, ďakujeme.`,
       photos: [
         {
-          url: "assets/photos/lake-mountain.svg",
-          caption: "Zelené pleso a stena Malého Kežmarského štítu"
+          url: "assets/photos/den0-balenie.jpg",
+          caption: "Fáza balenia sa — výbava na 220 km trasu"
         },
         {
-          url: "assets/photos/trail-rock.svg",
-          caption: "Kamenistý chodník Dolinou Bielej vody"
+          url: "assets/photos/den0-batoh.jpg",
+          caption: "Zabalený batoh pripravený na cestu"
+        },
+        {
+          url: "assets/photos/den0-zdiar.jpg",
+          caption: "Ždiar — príchod pod Belianske Tatry po 22 rokoch"
+        },
+        {
+          url: "assets/photos/den0-zapad-slnka.jpg",
+          caption: "Západ slnka za Belianskymi Tatrami"
+        },
+        {
+          url: "assets/photos/den0-kopskesedlo-vyhlad.jpg",
+          caption: "Pohľad na Kopské sedlo — zajtrajší cieľ"
         }
       ],
-      initialLikes: 94
+      facebookUrl: "https://www.facebook.com/radoslav.hyza/posts/pfbid0DNaVvv4BdDt4CgpgYHkz8bb1C9NxJ6wyGQ8mMcohMFje2SemVshJrH9qxdfPRENPl",
+      initialLikes: 34
     },
     {
       id: "entry-intro",
-      dayNumber: 0,
-      date: "Prípravy na štart",
+      dayNumber: "Úvod",
+      date: "Pred štartom",
       location: "Ždiar — Zuberec",
       title: "Prečo práve Tatry a pomoc deťom?",
       text: `Pred dvoma rokmi sa na Ceste SNP podaril malý zázrak — vyzbierali sme 12 500 € na pomoc deťom. Tento rok idem do Tatier.
