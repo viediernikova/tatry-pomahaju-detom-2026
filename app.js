@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initMetaAndStats(data);
   initMobileNavigation();
   initAboutSections(data.aboutProject);
+  initMedia(data.media);
   initRouteMap(data.route);
   initDiaryFeed(data.diary);
   initRequisites(data.requisites);
@@ -122,6 +123,36 @@ function initAboutSections(about) {
     `;
     grid.appendChild(card);
   });
+}
+
+// 3b. Médiá o projekte (Denník SME & Trenčínak)
+function initMedia(mediaData) {
+  const container = document.getElementById("mediaCardsGrid");
+  if (!container || !mediaData || !mediaData.articles) return;
+
+  container.innerHTML = mediaData.articles.map(article => `
+    <article class="media-card">
+      <div>
+        <div class="media-card-top">
+          <div class="media-publisher">
+            <span class="media-publisher-icon">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>
+            </span>
+            <span>${article.publisher}</span>
+          </div>
+          <span class="media-badge">${article.badge}</span>
+        </div>
+        <h3 class="media-card-title">${article.title}</h3>
+        <p class="media-card-quote">${article.quote}</p>
+      </div>
+      <div class="media-card-action">
+        <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="media-link-btn" aria-label="${article.ctaText}">
+          <span>${article.ctaText}</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+    </article>
+  `).join("");
 }
 
 // 4. Interaktívna mapa Tatier (Leaflet)

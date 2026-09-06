@@ -105,6 +105,30 @@ window.SITE_DATA = {
     ]
   },
 
+  media: {
+    tag: "Dôveryhodnosť & Médiá",
+    title: "Napísali o projekte",
+    subtitle: "Rozhovory a reportáže v slovenských médiách o charitatívnej výzve",
+    articles: [
+      {
+        publisher: "Denník SME (MY Trenčín)",
+        badge: "Rozhovor",
+        title: "18 kilometrov stúpania za desať dní: Myjavčan sa chystá na extrémnu výzvu, chce pomôcť deťom",
+        quote: "„Nie je dôležité koľko kopcov vyjdem, ale ako pomôžem deťom, ktoré naozaj tú pomoc potrebujú.“",
+        url: "https://my.sme.sk/trencin/c/18-kilometrov-stupania-za-desat-dni-myjavcan-sa-chysta-na-extremnu-vyzvu-chce-pomoct-detom",
+        ctaText: "Čítať rozhovor na SME.sk"
+      },
+      {
+        publisher: "Trenčínak.sk",
+        badge: "Reportáž",
+        title: "Zdolá 220 kilometrov cez Tatry a 18-tisíc výškových metrov. Myjavčan chce výzvou pomôcť deťom",
+        quote: "„Celkovo nastúpa 18 400 výškových metrov a navštívi všetky dostupné tatranské dvojtisícovky s cieľom vyzbierať financie pre rodiny so znevýhodnenými deťmi.“",
+        url: "https://www.trencinak.sk/clanky/13629/foto-zdola-220-kilometrov-cez-tatry-a-18-tisic-vyskovych-metrov-myjavcan-chce-vyzvou-pomoct-znevyhodnenym-detom",
+        ctaText: "Čítať článok na Trenčínak.sk"
+      }
+    ]
+  },
+
   route: {
     initialCenter: [49.20, 19.95],
     initialZoom: 10,
