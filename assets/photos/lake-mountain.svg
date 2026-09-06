@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="40%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="mountainsBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="lakeWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="400" cy="180" r="50" fill="#fef08a" opacity="0.8"/>
+  <polygon points="0,320 180,140 340,320" fill="url(#mountainsBack)" opacity="0.6"/>
+  <polygon points="180,140 230,200 140,200" fill="#ffffff" opacity="0.9"/>
+  <polygon points="260,320 480,110 680,320" fill="url(#mountainsBack)" opacity="0.7"/>
+  <polygon points="480,110 530,170 430,170" fill="#ffffff" opacity="0.95"/>
+  <polygon points="550,320 720,160 800,280 800,320" fill="url(#mountainsBack)" opacity="0.6"/>
+  <polygon points="-50,340 120,240 320,360" fill="#0f172a"/>
+  <polygon points="450,370 660,230 850,360" fill="#0f172a"/>
+  <rect y="320" width="800" height="180" fill="url(#lakeWater)"/>
+  <ellipse cx="400" cy="380" rx="140" ry="12" fill="#fef08a" opacity="0.25"/>
+  <ellipse cx="480" cy="420" rx="90" ry="8" fill="#38bdf8" opacity="0.4"/>
+  <path d="M0,500 L0,430 Q150,440 280,470 L350,500 Z" fill="#334155"/>
+  <path d="M500,500 L620,460 Q720,440 800,450 L800,500 Z" fill="#334155"/>
+  <rect x="24" y="24" width="240" height="34" rx="17" fill="rgba(15, 23, 42, 0.75)"/>
+  <text x="38" y="46" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Zelené pleso — Vysoké Tatry</text>
+</svg>

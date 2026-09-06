@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="nightSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#nightSky)"/>
+  <circle cx="120" cy="80" r="2" fill="#fff" opacity="0.8"/>
+  <circle cx="280" cy="60" r="1.5" fill="#fff" opacity="0.9"/>
+  <circle cx="450" cy="90" r="2.5" fill="#fff" opacity="0.7"/>
+  <circle cx="620" cy="40" r="2" fill="#fff" opacity="0.8"/>
+  <circle cx="710" cy="110" r="1.5" fill="#fff" opacity="0.9"/>
+  <circle cx="210" cy="150" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="530" cy="160" r="2" fill="#fff" opacity="0.7"/>
+  <polygon points="0,380 200,190 380,380" fill="#1e293b"/>
+  <polygon points="280,380 500,160 720,380" fill="#0f172a"/>
+  <path d="M0,380 Q400,360 800,390 L800,500 L0,500 Z" fill="#090d16"/>
+  <polygon points="120,380 100,430 140,430" fill="#042f2e"/>
+  <polygon points="160,360 140,420 180,420" fill="#042f2e"/>
+  <polygon points="680,370 655,435 705,435" fill="#042f2e"/>
+  <!-- Mountain Hut Silhouette -->
+  <rect x="340" y="320" width="130" height="90" fill="#78350f" rx="4"/>
+  <polygon points="320,320 405,250 490,320" fill="#991b1b"/>
+  <rect x="360" y="345" width="25" height="25" fill="#fef08a" opacity="0.9"/>
+  <rect x="420" y="345" width="25" height="25" fill="#fef08a" opacity="0.9"/>
+  <rect x="390" y="375" width="25" height="35" fill="#451a03"/>
+  <rect x="24" y="24" width="250" height="34" rx="17" fill="rgba(15, 23, 42, 0.75)"/>
+  <text x="38" y="46" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Téryho chata vo večernom tichu</text>
+</svg>

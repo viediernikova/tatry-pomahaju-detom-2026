@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Tatry pomáhajú deťom 2026 — Radoslav Hyža</title>
+  <meta name="description" content="Charitatívny trek cez Vysoké a Západné Tatry: 220 km, 18 400 m prevýšenia na pomoc deťom so ZŤP a znevýhodnením.">
+  <meta property="og:title" content="Tatry pomáhajú deťom 2026">
+  <meta property="og:description" content="Každý krok pomáha. Spoločne pre deti. Transparentná zbierka a denník z trasy.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/poster.jpg">
+
+  <!-- Leaflet CSS pre interaktívnu mapu Tatier -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <!-- Hlavné štýly -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HORNÁ LIŠTA S TRANSPARENTNÝM ÚČTOM -->
+  <div class="top-iban-bar">
+    <div class="container top-iban-content">
+      <div class="iban-label-group">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        <span>Transparentný účet pre deti:</span>
+      </div>
+      <span class="iban-badge" id="topIbanText">SK22 0900 0000 0052 2113 9164</span>
+      <button class="copy-mini-btn" id="copyTopIbanBtn" data-copy="SK22 0900 0000 0052 2113 9164" aria-label="Kopírovať IBAN">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        <span>Kopírovať IBAN</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- HLAVNÁ NAVIGÁCIA (HEADER) -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand">
+        <svg class="brand-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+        <span>TATRY POMÁHAJÚ DEŤOM</span>
+        <span class="brand-badge">2026</span>
+      </a>
+
+      <!-- Desktop navigácia -->
+      <nav aria-label="Hlavná navigácia">
+        <ul class="nav-menu">
+          <li><a href="#aboutSection" class="nav-link">O projekte</a></li>
+          <li><a href="#mapSection" class="nav-link">Trasa & Mapa</a></li>
+          <li><a href="#diarySection" class="nav-link">Denník</a></li>
+          <li><a href="#requisitesSection" class="nav-link">Transparentný účet</a></li>
+          <li><a href="#contactSection" class="nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-right">
+        <a href="#requisitesSection" class="btn btn-primary btn-sm">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          <span>Podporiť</span>
+        </a>
+
+        <!-- Hamburger pre telefóny -->
+        <button class="menu-toggle-btn" id="menuToggleBtn" aria-label="Otvoriť mobilné menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobilný rozbaľovací panel -->
+    <div class="mobile-nav-drawer" id="mobileNavDrawer">
+      <a href="#aboutSection" class="mobile-nav-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+        <span>O projekte a deťoch</span>
+      </a>
+      <a href="#mapSection" class="mobile-nav-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/></svg>
+        <span>Trasa a mapa Tatier</span>
+      </a>
+      <a href="#diarySection" class="mobile-nav-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        <span>Denník z trasy</span>
+      </a>
+      <a href="#requisitesSection" class="mobile-nav-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+        <span>Transparentný účet</span>
+      </a>
+      <a href="#contactSection" class="mobile-nav-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>Kontakt na autora</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SEKCIA -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div class="hero-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>Charitatívny horský trek • Vysoké & Západné Tatry</span>
+          </div>
+          <h1 class="hero-title">
+            Tatry pomáhajú <span class="highlight">deťom 2026</span>
+          </h1>
+          <div class="hero-slogan">
+            Každý krok pomáha. Spoločne pre deti.
+          </div>
+          <p class="hero-desc" id="heroDesc">
+            Po 2 rokoch nastal opäť moment vybrať sa na trek po Slovensku s pomocou pre deti. Po úspešnej Ceste SNP 2024, kde sa vyzbieralo 12 500 €, vyrážam v septembri 2026 na náročný prechod Tatier zo Ždiaru do Zuberca.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#requisitesSection" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              <span>Transparentný účet</span>
+            </a>
+            <a href="#diarySection" class="btn btn-outline">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              <span>Čítať denník</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- PLAGÁT A PROFIL TRASY -->
+        <div>
+          <div class="poster-card" id="posterPreviewCard" role="button" tabindex="0" aria-label="Zväčšiť oficiálny plagát Tatry pomáhajú deťom 2026">
+            <img src="assets/img/poster.jpg" alt="Oficiálny plagát a výškový profil trasy Tatry pomáhajú deťom 2026" id="posterImg">
+            <div class="poster-card-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              <span>Zväčšiť plagát a profil</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KĽÚČOVÉ ŠTATISTIKY TREKU -->
+      <div class="stats-bar">
+        <div class="stat-item">
+          <div class="stat-val" id="statDistance">220 km</div>
+          <div class="stat-lbl">Celková dĺžka</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val" id="statElevation">18 400 m</div>
+          <div class="stat-lbl">Celkové prevýšenie</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val" id="statDuration">8 – 10 dní</div>
+          <div class="stat-lbl">Štart: 7. 9. 2026</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val" id="statRoute">Ždiar ➔ Zuberec</div>
+          <div class="stat-lbl">4× ťažšie ako SNP</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O PROJEKTE & 4 PILIERE -->
+  <section class="section" id="aboutSection">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Poslanie a hodnoty</span>
+        <h2 class="section-title">Prečo vznikol projekt Tatry pomáhajú deťom?</h2>
+        <p class="section-desc">
+          Prepojenie extrémneho fyzického výkonu v horách s konkrétnou a transparentnou pomocou deťom, ktoré to najviac potrebujú.
+        </p>
+      </div>
+
+      <div class="features-grid" id="aboutFeaturesGrid"></div>
+    </div>
+  </section>
+
+  <!-- INTERAKTÍVNA MAPA TATIER -->
+  <section class="section" id="mapSection" style="background-color: #f1f5f9;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Trasa cez 2-tisícovky</span>
+        <h2 class="section-title">Mapa expedície Tatrami</h2>
+        <p class="section-desc">
+          Prechod cez všetky turisticky dostupné 2-tisícovky a horské chaty od Belianskych a Vysokých Tatier až po Roháče v Západných Tatrách.
+        </p>
+      </div>
+
+      <div class="map-card">
+        <div id="routeMap" role="region" aria-label="Interaktívna mapa trasy Tatrami"></div>
+        <div class="map-legend">
+          <div class="legend-item">
+            <span class="legend-dot dot-start"></span>
+            <span>Štart: Ždiar (7. 9. 2026)</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot dot-planned"></span>
+            <span>2-tisícovky, sedlá a horské chaty</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot dot-target"></span>
+            <span>Cieľ: Zuberec</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DENNÍK Z TRASY -->
+  <section class="section" id="diarySection">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Zápisky z hrebeňov</span>
+        <h2 class="section-title">Denník z trasy</h2>
+        <p class="section-desc">
+          Počas septembrového treku tu nájdete denné zápisky, fotografie a aktuálny stav expedície.
+        </p>
+      </div>
+
+      <div class="diary-layout" id="diaryFeed"></div>
+    </div>
+  </section>
+
+  <!-- TRANSPARENTNÝ ÚČET A PODPORA -->
+  <section class="section" id="requisitesSection" style="background-color: #fafbfc;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Pomoc pre deti</span>
+        <h2 class="section-title">Transparentný účet a ako pomôcť</h2>
+        <p class="section-desc">
+          Vaša pomoc putuje priamo trom rodinám so znevýhodnenými deťmi a trom organizáciám starajúcim sa o deti.
+        </p>
+      </div>
+
+      <div class="requisites-grid" id="requisitesGrid"></div>
+    </div>
+  </section>
+
+  <!-- KONTAKT A PÄTIČKA -->
+  <footer class="site-footer" id="contactSection">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">TATRY POMÁHAJÚ DEŤOM 2026</div>
+          <p style="max-width: 440px; font-size: 0.95rem; margin-bottom: 14px; line-height: 1.6;">
+            Iniciátor projektu: <b>Radoslav Hyža</b><br>
+            Email: <a href="mailto:radoslavhyza@gmail.com" style="color: #38bdf8;">radoslavhyza@gmail.com</a><br>
+            Telefón: <a href="tel:0905472734" style="color: #38bdf8;">0905 472 734</a>
+          </p>
+          <div style="font-size: 0.82rem; color: #64748b;">
+            #tatrypomahajudetom #vysoketatry #zapadnetatry #pomocpredeti #ludialudom
+          </div>
+        </div>
+
+        <div>
+          <div style="font-weight: 700; color: #fff; margin-bottom: 14px; font-size: 0.95rem;">Sledujte projekt na sociálnych sieťach:</div>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/radoslav.hyza/" target="_blank" rel="noopener noreferrer" class="social-btn">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              <span>Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/radoslavhyza/" target="_blank" rel="noopener noreferrer" class="social-btn">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              <span>Instagram</span>
+            </a>
+            <a href="https://www.transparentneucty.sk/#/ucet/SK2209000000005221139164" target="_blank" rel="noopener noreferrer" class="social-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 10h18M5 10v11M9 10v11M15 10v11M19 10v11M12 2 2 7h20z"/></svg>
+              <span>Transparentný účet</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copy">
+        © 2026 Tatry pomáhajú deťom. Projekt organizuje Radoslav Hyža s podporou darcov.
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILNÁ SPODNÁ LIŠTA -->
+  <div class="mobile-bar" id="mobileStickyBar">
+    <div class="mobile-bar-inner">
+      <div>
+        <div class="mobile-iban-text">SK22 0900 0000 0052 2113 9164</div>
+        <div class="mobile-iban-sub">Transparentný účet pre deti</div>
+      </div>
+      <a href="#requisitesSection" class="btn btn-primary btn-sm">Podporiť</a>
+    </div>
+  </div>
+
+  <!-- MODÁLNE OKNO PRE ZDIEĽANIE (SHARE MODAL) -->
+  <div class="share-modal" id="shareModal">
+    <div class="share-modal-card">
+      <div class="share-modal-header">
+        <h3 class="share-modal-title">Zdieľať projekt</h3>
+        <button class="share-close-btn" id="shareCloseBtn" aria-label="Zavrieť okno">&times;</button>
+      </div>
+      <p class="share-modal-desc">
+        Pomôžte nám šíriť zbierku <b>Tatry pomáhajú deťom 2026</b> medzi priateľov a známych:
+      </p>
+
+      <div class="share-options-grid">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="share-opt-btn share-fb" id="shareFbBtn">
+          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          <span>Facebook</span>
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="share-opt-btn share-tg" id="shareTgBtn">
+          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.536-.196 1.006.128.828.942z"/></svg>
+          <span>Telegram</span>
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="share-opt-btn share-wa" id="shareWaBtn">
+          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.301-.15-1.782-.879-2.057-.98-.276-.1-.476-.15-.677.15-.201.3-.777.98-.952 1.18-.176.2-.351.226-.652.075-.301-.15-1.27-.468-2.42-1.493-.894-.798-1.498-1.783-1.673-2.084-.176-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.176.201-.301.301-.501.1-.2.05-.376-.025-.527-.075-.15-.677-1.632-.927-2.235-.244-.587-.492-.507-.677-.517l-.577-.01c-.2 0-.527.075-.802.376-.276.301-1.053 1.028-1.053 2.508 0 1.48 1.078 2.909 1.228 3.109.15.2 2.122 3.24 5.141 4.544.718.31 1.279.495 1.716.634.721.23 1.378.198 1.897.12.578-.088 1.782-.728 2.033-1.431.25-.702.25-1.304.175-1.43-.075-.126-.275-.201-.576-.351zM12.004 0C5.378 0 .008 5.37.008 11.996c0 2.115.553 4.179 1.602 6.002L.002 24l6.17-1.618a11.968 11.968 0 0 0 5.832 1.514c6.626 0 11.996-5.37 11.996-11.996S18.63 0 12.004 0z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+
+      <div class="share-copy-box">
+        <input type="text" readonly id="shareLinkInput" class="share-link-input" value="">
+        <button class="btn btn-primary btn-sm" id="shareCopyLinkBtn">Kopírovať odkaz</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX PRE ZVÄČŠENIE PLAGÁTU A FOTIEK -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxCloseBtn" aria-label="Zavrieť zväčšené zobrazenie">&times;</button>
+      <img src="" alt="Zväčšený obrázok" id="lightboxImg">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- TOAST O KOPÍROVANÍ -->
+  <div class="toast-message" id="toastMessage">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+    <span id="toastText">IBAN bol skopírovaný do schránky!</span>
+  </div>
+
+  <!-- Leaflet JS pre mapu -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  
+  <!-- Dáta webu v slovenčine -->
+  <script src="content.js"></script>
+
+  <!-- Aplikačná logika -->
+  <script src="app.js"></script>
+</body>
+</html>

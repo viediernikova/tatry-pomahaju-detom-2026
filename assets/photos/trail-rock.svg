@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="daySky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#daySky)"/>
+  <polygon points="0,150 400,280 800,100 800,500 0,500" fill="#64748b"/>
+  <polygon points="0,260 300,320 800,220 800,500 0,500" fill="#475569"/>
+  <path d="M50,500 Q200,420 320,380 T550,310 T700,220" stroke="#fcd34d" stroke-width="8" fill="none" stroke-dasharray="12,12" stroke-linecap="round"/>
+  <polygon points="180,440 220,410 240,450 190,460" fill="#334155"/>
+  <polygon points="360,390 390,370 410,400 370,410" fill="#1e293b"/>
+  <polygon points="500,340 540,320 560,350 510,360" fill="#334155"/>
+  <polygon points="80,360 60,420 100,420" fill="#064e3b"/>
+  <polygon points="130,340 110,400 150,400" fill="#064e3b"/>
+  <polygon points="620,260 605,310 635,310" fill="#064e3b"/>
+  <rect x="24" y="24" width="220" height="34" rx="17" fill="rgba(15, 23, 42, 0.75)"/>
+  <text x="38" y="46" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Chodník na Rysy (2 501 m)</text>
+</svg>

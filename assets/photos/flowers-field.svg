@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="valleySky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#fed7aa"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#valleySky)"/>
+  <polygon points="0,280 260,160 520,280" fill="#64748b"/>
+  <polygon points="340,280 600,140 800,260 800,320 0,320" fill="#475569"/>
+  <path d="M0,280 Q400,220 800,290 L800,500 L0,500 Z" fill="#15803d"/>
+  <path d="M0,360 Q350,310 800,380 L800,500 L0,500 Z" fill="#16a34a"/>
+  <!-- Wildflowers -->
+  <circle cx="160" cy="420" r="14" fill="#fef08a"/>
+  <circle cx="160" cy="420" r="7" fill="#ca8a04"/>
+  <circle cx="280" cy="380" r="12" fill="#f43f5e"/>
+  <circle cx="280" cy="380" r="5" fill="#881337"/>
+  <circle cx="420" cy="430" r="16" fill="#fef08a"/>
+  <circle cx="420" cy="430" r="8" fill="#ca8a04"/>
+  <circle cx="560" cy="400" r="13" fill="#38bdf8"/>
+  <circle cx="560" cy="400" r="6" fill="#0369a1"/>
+  <circle cx="680" cy="440" r="15" fill="#f43f5e"/>
+  <circle cx="680" cy="440" r="7" fill="#881337"/>
+  <rect x="24" y="24" width="250" height="34" rx="17" fill="rgba(15, 23, 42, 0.75)"/>
+  <text x="38" y="46" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Západné Tatry — Roháčska dolina</text>
+</svg>

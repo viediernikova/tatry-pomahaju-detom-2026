@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="tatrySky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="60%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+    <linearGradient id="rockGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#tatrySky)"/>
+  <!-- Sharp Rocky Tatra Peaks (Gerlach / Rysy style) -->
+  <polygon points="50,420 220,120 380,420" fill="url(#rockGrad)"/>
+  <polygon points="220,120 260,180 180,180" fill="#f8fafc" opacity="0.95"/>
+  <polygon points="250,420 440,80 640,420" fill="#334155"/>
+  <polygon points="440,80 480,150 390,150" fill="#f8fafc" opacity="0.95"/>
+  <polygon points="520,420 680,160 820,420" fill="url(#rockGrad)"/>
+  <polygon points="680,160 710,210 650,210" fill="#f8fafc" opacity="0.95"/>
+  <!-- Alpine ridge -->
+  <polygon points="0,420 180,340 380,440 600,320 800,430 800,500 0,500" fill="#0f172a"/>
+  <!-- Pines -->
+  <polygon points="80,440 65,490 95,490" fill="#064e3b"/>
+  <polygon points="120,430 105,480 135,480" fill="#064e3b"/>
+  <polygon points="710,430 695,485 725,485" fill="#064e3b"/>
+  <rect x="24" y="24" width="280" height="34" rx="17" fill="rgba(15, 23, 42, 0.75)"/>
+  <text x="38" y="46" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Tatranské štíty — 18 400 m prevýšenia</text>
+</svg>

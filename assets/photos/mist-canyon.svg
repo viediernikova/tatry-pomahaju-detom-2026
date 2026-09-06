@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="mistSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#mistSky)"/>
+  <polygon points="0,0 280,300 150,500 0,500" fill="#334155"/>
+  <polygon points="800,0 520,300 650,500 800,500" fill="#1e293b"/>
+  <polygon points="360,500 440,500 410,340 390,340" fill="#0284c7"/>
+  <rect y="160" width="800" height="40" fill="#ffffff" opacity="0.3" rx="20"/>
+  <rect y="240" width="800" height="60" fill="#ffffff" opacity="0.4" rx="30"/>
+  <rect y="320" width="800" height="50" fill="#ffffff" opacity="0.35" rx="25"/>
+  <rect x="24" y="24" width="220" height="34" rx="17" fill="rgba(15, 23, 42, 0.75)"/>
+  <text x="38" y="46" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Priečne sedlo a hmla (2 352 m)</text>
+</svg>

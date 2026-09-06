@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#ffffff" rx="16"/>
+  <!-- Decorative QR code pattern -->
+  <!-- Top Left Marker -->
+  <rect x="20" y="20" width="45" height="45" fill="#0f172a" rx="4"/>
+  <rect x="28" y="28" width="29" height="29" fill="#ffffff"/>
+  <rect x="34" y="34" width="17" height="17" fill="#0f172a" rx="2"/>
+  <!-- Top Right Marker -->
+  <rect x="135" y="20" width="45" height="45" fill="#0f172a" rx="4"/>
+  <rect x="143" y="28" width="29" height="29" fill="#ffffff"/>
+  <rect x="149" y="34" width="17" height="17" fill="#0f172a" rx="2"/>
+  <!-- Bottom Left Marker -->
+  <rect x="20" y="135" width="45" height="45" fill="#0f172a" rx="4"/>
+  <rect x="28" y="143" width="29" height="29" fill="#ffffff"/>
+  <rect x="34" y="149" width="17" height="17" fill="#0f172a" rx="2"/>
+  <!-- Pixel pattern -->
+  <rect x="75" y="25" width="10" height="10" fill="#0f172a"/>
+  <rect x="95" y="25" width="10" height="10" fill="#0f172a"/>
+  <rect x="115" y="25" width="10" height="10" fill="#0f172a"/>
+  <rect x="75" y="45" width="15" height="10" fill="#0f172a"/>
+  <rect x="105" y="45" width="10" height="15" fill="#0f172a"/>
+  <rect x="25" y="75" width="15" height="10" fill="#0f172a"/>
+  <rect x="50" y="75" width="10" height="15" fill="#0f172a"/>
+  <rect x="75" y="75" width="12" height="12" fill="#0f172a"/>
+  <rect x="110" y="75" width="15" height="10" fill="#0f172a"/>
+  <rect x="140" y="75" width="15" height="15" fill="#0f172a"/>
+  <rect x="165" y="75" width="10" height="10" fill="#0f172a"/>
+  <!-- Center Heart / SBP Logo -->
+  <circle cx="100" cy="100" r="22" fill="#e11d48"/>
+  <path d="M100 108 C100 108 92 101 88 96 C84 91 87 85 93 85 C97 85 100 89 100 89 C100 89 103 85 107 85 C113 85 116 91 112 96 C108 101 100 108 100 108 Z" fill="#ffffff"/>
+  <!-- Bottom Right Pixels -->
+  <rect x="80" y="135" width="15" height="10" fill="#0f172a"/>
+  <rect x="105" y="140" width="15" height="15" fill="#0f172a"/>
+  <rect x="135" y="135" width="10" height="20" fill="#0f172a"/>
+  <rect x="155" y="140" width="20" height="10" fill="#0f172a"/>
+  <rect x="145" y="165" width="15" height="10" fill="#0f172a"/>
+  <rect x="170" y="165" width="10" height="10" fill="#0f172a"/>
+  <rect x="80" y="165" width="12" height="10" fill="#0f172a"/>
+  <rect x="105" y="165" width="18" height="10" fill="#0f172a"/>
+</svg>
