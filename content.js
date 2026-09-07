@@ -125,6 +125,14 @@ window.SITE_DATA = {
         quote: "„Celkovo nastúpa 18 400 výškových metrov a navštívi všetky dostupné tatranské dvojtisícovky s cieľom vyzbierať financie pre rodiny so znevýhodnenými deťmi.“",
         url: "https://www.trencinak.sk/clanky/13629/foto-zdola-220-kilometrov-cez-tatry-a-18-tisic-vyskovych-metrov-myjavcan-chce-vyzvou-pomoct-znevyhodnenym-detom",
         ctaText: "Čítať článok na Trenčínak.sk"
+      },
+      {
+        publisher: "SITA.sk",
+        badge: "Tlačová správa",
+        title: "Tatry pomáhajú deťom 2026: Radoslav zdolá 220 kilometrov, aby pomohol deťom so zdravotným znevýhodnením",
+        quote: "„Idem na túto trasu s pokorou. Možno sa mi ju ani nepodarí dokončiť. Netreba si dávať veľké ciele. Dôležité je, že sa pokúsim urobiť maximum a zároveň pomôcť deťom.“",
+        url: "https://sita.sk/tatry-pomahaju-detom-2026-radoslav-zdola-220-kilometrov-aby-pomohol-detom-so-zdravotnym-znevyhodnenim/",
+        ctaText: "Čítať správu na SITA.sk"
       }
     ]
   },
