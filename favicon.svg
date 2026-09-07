@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </radialGradient>
+    <radialGradient id="heartGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff2e5b" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#e11d48" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff3b65"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+    <linearGradient id="mtnShadow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Badge Base -->
+  <circle cx="256" cy="256" r="248" fill="url(#bgGrad)"/>
+  <circle cx="256" cy="256" r="244" fill="none" stroke="#334155" stroke-width="4" opacity="0.6"/>
+
+  <!-- Mountain Peaks (Tatry) -->
+  <!-- Left Peak (Krivan) -->
+  <polygon points="120,330 180,180 256,310 180,310" fill="url(#mtnShadow)" opacity="0.9"/>
+  <polygon points="180,180 256,310 120,330" fill="#f8fafc"/>
+  <polygon points="180,180 160,230 180,215 195,250 210,235 256,310" fill="#0f172a" opacity="0.8"/>
+
+  <!-- Right Peak (Lomnicky) -->
+  <polygon points="256,310 330,170 395,330 330,310" fill="url(#mtnShadow)" opacity="0.9"/>
+  <polygon points="330,170 395,330 256,310" fill="#e2e8f0"/>
+  <polygon points="330,170 310,225 330,210 350,255 335,265 395,330" fill="#0f172a" opacity="0.8"/>
+
+  <!-- Central Main Peak (Gerlachovsky stit) -->
+  <polygon points="150,330 256,115 360,330" fill="#ffffff"/>
+  <polygon points="256,115 360,330 256,330" fill="#cbd5e1"/>
+  <path d="M256,115 L235,185 L256,170 L230,240 L256,225 L245,290 L256,330 L275,280 L260,260 L290,215 L256,115 Z" fill="#1e293b" opacity="0.9"/>
+
+  <!-- Soft Radiant Heart Glow -->
+  <circle cx="256" cy="335" r="140" fill="url(#heartGlow)"/>
+
+  <!-- Glowing Charity Heart -->
+  <path d="M256,415 C256,415 160,355 160,285 C160,240 195,215 230,225 C245,230 256,245 256,245 C256,245 267,230 282,225 C317,215 352,240 352,285 C352,355 256,415 256,415 Z" 
+        fill="url(#heartGrad)" 
+        stroke="#ffffff" 
+        stroke-width="8" 
+        stroke-linejoin="round"/>
+
+  <!-- Heart Highlight Sparkle -->
+  <path d="M190,260 C185,275 190,295 195,305" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.6"/>
+</svg>
