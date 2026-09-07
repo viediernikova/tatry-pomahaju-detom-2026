@@ -194,86 +194,56 @@ window.SITE_DATA = {
 
   // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
-    {
-      id: "day-0",
-      dayNumber: 0,
-      date: "6. september 2026",
-      location: "Trnava ➔ Poprad ➔ Ždiar",
-      title: "Deň 0: Presun vlakom a busom cez Poprad do Ždiaru",
-      text: `TATRY POMÁHAJÚ DEŤOM 🏔️👊
-
-Deň 0: presun vlakom a busom cez Poprad do Ždiaru.
-Posledný týždeň bol veľmi hektický, príprava bola ťažká, hlavne vybrať správne rodinky s chorými deťmi a organizácie bolo náročné. Do toho rôzne iné veci, napríklad riešenie novej techniky na foto video dokumentáciu a pod. 🙂
-
-V prvom rade by som chcel poďakovať mojej láske Katke, že mi umožnila ísť na túto cestu. Taktiež Radkovi za podporu a aj svojmu zamestnávateľovi ZVJS za poskytnutie voľna 🙂
-
-Možno sa pýtate prečo som nešiel skôr, keď bolo ako tak fajn počasie v Tatrách. Nedalo sa z rodinno pracovných dôvodov. Takto pred 2 rokmi som štartoval Cestu SNP a dnes v podstate Tatry.
-
-Včera som ešte zarezával v robote a dnes ráno sa vrhol na balenie. Všetko som si nachystal a snažil sa ako tak naukladať do batohu 😀 Poznáte to.
-Najviac zabralo miesto páperový spacák. Radšej som zobral teplý, človek nikdy nevie. Samozrejme nechýbajú ani zimné doplnky 🥶
-
-Po obede sme šli na stanicu v Trnave. Samozrejme ako na potvoru sa mi nedal kúpiť lístok na vlak cez mobil 😀 Ale našťastie miláčikovi áno. Reku kúp mi miestenku vagón číslo 9, ten je posledný. Jasné že po príchode Šinkansena sme zistili že to je prvý vagón. Tak šmygaj behom cez celé nástupište dopredku. Ťažko sa mi lúčilo ❤️😢
-Vo vlaku sa pýtam sprievodcu na pifko, prevelikú chuť som mal. Ale fakt veľkú. Zadrel že reštauračný vagón je na opačnom konci. Win win situácia 😂 No nič, párkrát som preglgol nasucho a potom som sa terigal cez celý vlak. Vôbec ma pri chôdzi nehádzalo, veď naše vlaky chodia akoby levitovali... 😀
-Práskol som si 2 Plzne a zobral ešte 1 plechovku.
-
-Na počudovanie vlak nabral stratu pár minút až v Štrbe. V Poprade som šiel na autobus. Naše verejné priestory, autobusová stanica sú vesmes ultrahyper moderné priestory. Ale tak z Vízie 1974...
-
-Po 22 rokoch som sa ocitol v Ždiari. Pekná dedinka a ešte krajší pohľad na Belianske Tatry. Privítalo ma pár oviec s ktorými som pokecal a pohľad na Kopské sedlo kam idem zajtra. Ubytoval som sa v peknom penzióne Sova za super cenu, 38 eur s raňajkami 🙂
-Na večeru som si dal držkovú polievku do mojej držky a Urpiner 😊
-
-Až cestou som zistil že som si doma zabudol návleky 😀 No čo, už som starý človek. Ale myslím že to poriešim v Smokovci.
-
-Ešte si nachystám veci na izbe na zajtra a pôjdem na to. Čo sa týka trasy. Ideálne je to spraviť za 11 dní. Ale človek mieni a počasie mení. Od štvrtka hlásia všelijaké počasie, takže rátam s prestojmi, zmenou trasy a neviem čo ešte bude. Nevadí, čo už. Pôjdem postupne krok za krokom.
-
-Nie je dôležité koľko kopcov vyjdem, ale ako pomôžem deťom, ktoré naozaj tú pomoc potrebujú 😉🤗🙏
-Môžte už prispievať. V mene všetkých detí, ďakujeme.`,
-      photos: [
-        {
-          url: "assets/photos/den0-balenie.jpg",
-          caption: "Fáza balenia sa — výbava na 220 km trasu"
-        },
-        {
-          url: "assets/photos/den0-batoh.jpg",
-          caption: "Zabalený batoh pripravený na cestu"
-        },
-        {
-          url: "assets/photos/den0-zdiar.jpg",
-          caption: "Ždiar — príchod pod Belianske Tatry po 22 rokoch"
-        },
-        {
-          url: "assets/photos/den0-zapad-slnka.jpg",
-          caption: "Západ slnka za Belianskymi Tatrami"
-        },
-        {
-          url: "assets/photos/den0-kopskesedlo-vyhlad.jpg",
-          caption: "Pohľad na Kopské sedlo — zajtrajší cieľ"
-        }
-      ],
-      facebookUrl: "https://www.facebook.com/radoslav.hyza/posts/pfbid0DNaVvv4BdDt4CgpgYHkz8bb1C9NxJ6wyGQ8mMcohMFje2SemVshJrH9qxdfPRENPl",
-      initialLikes: 34
-    },
-    {
-      id: "entry-intro",
-      dayNumber: "Úvod",
-      date: "Pred štartom",
-      location: "Ždiar — Zuberec",
-      title: "Prečo práve Tatry a pomoc deťom?",
-      text: `Pred dvoma rokmi sa na Ceste SNP podaril malý zázrak — vyzbierali sme 12 500 € na pomoc deťom. Tento rok idem do Tatier.
-
-220 kilometrov, 18 400 výškových metrov a každý jeden krok s myšlienkou na deti, ktoré každodenne zvádzajú oveľa ťažšie boje než je výstup na tatranské štíty. V pondelok 7. septembra 2026 vyrážam zo Ždiaru.
-
-Každý deň tu budem pridávať krátky prehľad, fotky z hrebeňov a aktuálnu polohu. Ďakujem všetkým, ktorí stojíte pri mne a deťoch!`,
-      photos: [
-        {
-          url: "assets/img/poster.jpg",
-          caption: "Oficiálny plagát a výškový profil trasy (220 km • 18 400 m)"
-        },
-        {
-          url: "assets/photos/tatry-stity.svg",
-          caption: "Tatranské štíty — náročný hrebeňový prechod cez 2-tisícovky"
-        }
-      ],
-      initialLikes: 186
-    }
+      {
+          "id": "day-0",
+          "dayNumber": 0,
+          "date": "7. septembra 2026",
+          "location": "Trnava ➔ Poprad ➔ Ždiar ➔ Belianske Tatry",
+          "title": "Deň 0: Presun vlakom a busom cez Poprad do Ždiaru",
+          "text": "TATRY POMÁHAJÚ DEŤOM 🏔👊\n\n Deň 0: presun vlakom a busom cez Poprad do Ždiaru. \n Posledný týždeň bol veľmi hektický, príprava bola ťažká, hlavne vybrať správne rodinky s chorými deťmi a organizácie bolo náročné. Do toho rôzne iné veci, napríklad riešenie novej techniky na foto video dokumentáciu a pod. 🙂... V prvom rade by som chcel poďakovať mojej láske Katke, že mi umožnila ísť na túto cestu. Taktiež Radkovi za podporu a aj svojmu zamestnávateľovi ZVJS za poskytnutie voľna 🙂\n\n Možno sa pýtate prečo som nešiel skôr, keď bolo ako tak fajn počasie v Tatrách. Nedalo sa z rodinno pracovných dôvodov. Takto pred 2 rokmi som štartoval Cestu SNP a dnes v podstate Tatry. \n\n Včera som ešte zarezával v robote a dnes ráno sa vrhol na balenie. Všetko som si nachystal a snažil sa ako tak naukladať do batohu 😀 Poznáte to. \n Najviac zabralo miesto páperový spacák. Radšej som zobral teplý, človek nikdy nevie. Samozrejme nechýbajú ani zimné doplnky 🥶\n\n Po obede sme šli na stanicu v Trnave. Samozrejme ako na potvoru sa mi nedal kúpiť lístok na vlak cez mobil 😀 Ale našťastie miláčikovi áno. Reku kúp mi miestenku vagón číslo 9, ten je posledný. Jasné že po príchode Šinkansena sme zistili že to je prvý vagón. Tak šmygaj behom cez celé nástupište dopredku. Ťažko sa mi lúčilo ❤️😢 \n Vo vlaku sa pýtam sprievodcu na pifko, prevelikú chuť som mal. Ale fakt veľkú. Zadrel že reštauračný vagón je na opačnom konci. Win win situácia 😂 No nič, párkrát som preglgol nasucho a potom som sa terigal cez celý vlak. Vôbec ma pri chôdzi nehádzalo, veď naše vlaky chodia akoby levitovali... 😀\n Práskol som si 2 Plzne a zobral ešte 1 plechovku.\n\n Na počudovanie vlak nabral stratu pár minút až v Štrbe. V Poprade som šiel na autobus. Naše verejné priestory, autobusová stanica sú vesmes ultrahyper moderné priestory. Ale tak z Vízie 1974...\n\n Po 22 rokoch som sa ocitol v Ždiari. Pekná dedinka a ešte krajší pohľad na Belianske Tatry. Privítalo ma pár oviec s ktorými som pokecal a pohľad na Kopské sedlo kam idem zajtra. Ubytoval som sa v peknom penzióne Sova za super cenu, 38 eur s raňajkami 🙂\n Na večeru som si dal držkovú polievku do mojej držky a Urpiner 😊\n\n Až cestou som zistil že som si doma zabudol návleky 😀 No čo, už som starý človek. Ale myslím že to poriešim v Smokovci.\n\n Ešte si nachystám veci na izbe na zajtra a pôjdem na to. Čo sa týka trasy. Ideálne je to spraviť za 11 dní. Ale človek mieni a počasie mení. Od štvrtka hlásia všelijaké počasie, takže rátam s prestojmi, zmenou trasy a neviem čo ešte bude. Nevadí, čo už. Pôjdem postupne krok za krokom. \n\n Nie je dôležité koľko kopcov vyjdem, ale ako pomôžem deťom, ktoré naozaj tú pomoc potrebujú 😉🤗🙏\n Môžte už prispievať. V mene všetkých detí, ďakujeme. \n\n V SME vyšiel aj rozhovor so mnou \n https://my.sme.sk/…/18-kilometrov-stupania-za-desat-dni-myj…\n\n https://www.transparentneucty.sk/…\n\n https://www.ludialudom.sk/vyzvy/18505\n\n #tatrypomahajudetom #vysoketatry #zapadnetatry #hightatras #pomocpredeti #ludialudom #donio #zvjs #zdiar #beliansketatry #hotelsovazdiar Zobraziť viac",
+          "photos": [
+              {
+                  "url": "assets/photos/den0-foto1.jpg",
+                  "caption": "Fáza balenia sa"
+              },
+              {
+                  "url": "assets/photos/den0-foto2.jpg",
+                  "caption": "Deň 0"
+              },
+              {
+                  "url": "assets/photos/den0-foto3.jpg",
+                  "caption": "Ždiar"
+              },
+              {
+                  "url": "assets/photos/den0-foto4.jpg",
+                  "caption": "Západ slnka za Beliankami"
+              },
+              {
+                  "url": "assets/photos/den0-foto5.jpg",
+                  "caption": "Tam vľavo idem zajtra do Kopského sedla 😀"
+              }
+          ],
+          "facebookUrl": "https://www.facebook.com/radoslav.hyza/posts/10234277948226201",
+          "initialLikes": 25
+      },
+      {
+          "id": "entry-intro",
+          "dayNumber": "Úvod",
+          "date": "Pred štartom",
+          "location": "Ždiar — Zuberec",
+          "title": "Prečo práve Tatry a pomoc deťom?",
+          "text": "Pred dvoma rokmi sa na Ceste SNP podaril malý zázrak — vyzbierali sme 12 500 € na pomoc deťom. Tento rok idem do Tatier.\n\n220 kilometrov, 18 400 výškových metrov a každý jeden krok s myšlienkou na deti, ktoré každodenne zvádzajú oveľa ťažšie boje než je výstup na tatranské štíty. V pondelok 7. septembra 2026 vyrážam zo Ždiaru.\n\nKaždý deň tu budem pridávať krátky prehľad, fotky z hrebeňov a aktuálnu polohu. Ďakujem všetkým, ktorí stojíte pri mne a deťoch!",
+          "photos": [
+              {
+                  "url": "assets/img/poster.jpg",
+                  "caption": "Oficiálny plagát a výškový profil trasy (220 km • 18 400 m)"
+              },
+              {
+                  "url": "assets/photos/tatry-stity.svg",
+                  "caption": "Tatranské štíty — náročný hrebeňový prechod cez 2-tisícovky"
+              }
+          ],
+          "initialLikes": 186
+      }
   ]
 };
