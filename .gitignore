@@ -11,3 +11,7 @@ desktop.ini
 
 # Logs
 *.log
+
+# Bot & Private configs
+bot/
+scratch/
