@@ -203,6 +203,34 @@ window.SITE_DATA = {
   // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
         {
+            "id": "day-4",
+            "dayNumber": 4,
+            "date": "10. septembra 2026",
+            "location": "Starý Smokovec ➔ Sliezsky dom ➔ Poľský hrebeň ➔ Východná Vysoká ➔ Sliezsky dom",
+            "title": "Deň 4: Zo Starého Smokovca cez Sliezsky dom na Východnú Vysokú",
+            "text": "TATRY POMÁHAJÚ DEŤOM 2026 🏔👊\n\n Deň 4: 14,5 km, 1460 m hore, 780 m dole. Starý Smokovec 989 m - Sliezsky dom 1670 m - Východná Vysoká 2429 m - Sliezsky dom 1670 m. Dnes teda kvázi ľahšia etapa.\n\n Kým sa dostanem k dnešnému reportu tak vám predstavím Danka z Trenčína. Danko má 8 rôčkov. Je to usmievavý chlapček a veľký bojovník. Bohužiaľ osud sa s ním nehral. Ako jediný na Slovensku trpí Aicardi-Goutieresovým syndrómom a má aj detskú mozgovú obrnu. Pomôžme Dankovi splniť sen, zahra...ť si futbal. To čo je pre nás bežné, pre Danka je nedostupné 😢 Vyspal som sa celkom fajn aj napriek tomu že za oknom mi ručal jeleň - začala ruja. Jak jsme předpokládali došla zmena počasia. Našťastie nie až tak radikálne. Trochu sa ochladilo a ráno už nepršalo 😉\n\n Zo Smokovca som šiel pekným lesíkom po žltej na Sliezsky dom. Bolo celkom teplo, kraťase a tričko stačili. Po 2 hodinách som bol na Sliezskom dome. Tu by som chcel opäť poďakovať ďalšiemu ubytovaciemu zariadeniu. Veľmi mi pomohli s ubytovaním keď sa dozvedeli moje poslanie. Veľká vďaka 🙂\n Už o 12hod som sa mohol ubytovať. Ja taký somrák a v luxuse som sa ocitol 😀 Dal som si fajnú kapustnicu. Reku mal by som ísť skúsiť Východnú Vysokú. Aj keď vonku bola hmla jak hovado.\n\n Riskol som to a vyrazil. Ako som šiel tak pomaly sa trhali mraky a čuduj sa svete aj azúro bolo miestami. Vrch nie je až tak ďaleko od Sliezskeho domu, ale posledných 300 výškových je výživných. Opäť prudko hore, do toho reťaze sem tam. Len zdvíhate hlavu hore a v duchu si hovoríte: kedy tam už budem? 😀\n\n Na Poľskom hrebeni 2200m už boli pekné výhľady. Síce oblačnosť pribúdala, ale našťastie som ešte stihol fajn výhľady hore. Začal sa zdvíhať vietor, tak som sa zdvihol aj ja 😀 Prudký zostup a reťaze som zvládol a tak mi už nič nebránilo fujazdiť na 🍺 Večer som si chcel dať guláš, ale bohužiaľ už nebol.\n\n Ďakujeme veľmi pekne ktorí už prispeli na pomoc deťom a vopred ďakujeme tým, ktorí to majú v pláne 😊\n\n       \n\n \n\n https://www.ludialudom.sk/vyzvy/18505",
+            "photos": [
+                {
+                    "url": "assets/photos/den4-foto1.jpg",
+                    "caption": "Dnes"
+                },
+                {
+                    "url": "assets/photos/den4-foto2.jpg",
+                    "caption": "Danko"
+                },
+                {
+                    "url": "assets/photos/den4-foto3.jpg",
+                    "caption": "Deň 4"
+                },
+                {
+                    "url": "assets/photos/den4-foto4.jpg",
+                    "caption": "Rozprávkový les"
+                }
+            ],
+            "facebookUrl": "https://www.facebook.com/radoslav.hyza/posts/10234325513255297",
+            "initialLikes": 25
+        },
+        {
             "id": "day-3",
             "dayNumber": 3,
             "date": "9. septembra 2026",
