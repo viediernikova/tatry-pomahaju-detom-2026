@@ -203,6 +203,34 @@ window.SITE_DATA = {
   // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
         {
+            "id": "day-3",
+            "dayNumber": 3,
+            "date": "10. septembra 2026",
+            "location": "Zbojnícka chata ➔ Hrebienok ➔ Slavkovský štít ➔ Hrebienok ➔ Starý Smokovec",
+            "title": "Deň 3: Zo Zbojníckej chaty cez Slavkovský štít do Starého Smokovca",
+            "text": "TATRY POMÁHAJÚ DEŤOM 2026 🏔👊\n\n Deň 3: 22 km, 1300 m hore, 2270 m dole. Zbojnícka chata 1960 m - Hrebienok 1285 m - Slavkovský štít 2452 m - Hrebienok 1285 m - Starý Smokovec po asfaltke 1000 m.\n\n Kým sa dostanem k dnešnému reportu tak začnem úsmevnou príhodou z konca dňa. Z lesa sa zrazu vynorí poľský pár v mojich rokoch. Čosi sa rozprávajú, pán odišiel a pani mykla plecami a hovorí mi: \"My se trochu pošukali.\" Poľština je krásna reč 😀😀... Ešte včera večer pred spaním som skúšal foto-video nočnej oblohy. \n Ráno zo Zbojníčky išla cesta dole fajn, podľa plánu. O 10hod som bol na Hrebienku a riešil nocľah na najbližšie 2 noci a iné veci.\n\n V pláne bola dnes ešte morda - nekonečný stupák na Slavkovský štít. Ono je to síce krátke, ale furt pruďas. A keď si myslíte, že vidíte vrchol tak nevidíte. Chcel som ísť hore ale čo s najľahším batohom. Tak som pekne na recepcii v turistickej ubytovni na Hrebienku vysvetlil vo co kráči. A nebol vôbec problém odložiť nepotrebné veci.\n Celkom toto funguje aj v Tatrách ako na SNP 🙂\n\n Cesta hore bola dlhá, únavná zas takým terénom naprd. Po 4:15 hod s prestávkami som bol hore. Tam nikde nikoho, len ja, vrany a kamzík dačo nižšie 🙂 Vychutnal som si výhľady a poďho ešte dole. Čo nebolo vôbec ľahké. Aj z toho dôvodu že som počas dňa jedol len energetické krávoviny.\n\n Na Hrebienku som si dal Kofolu ktorú na tomto treku milujem. Pivo si dávam až večer. V Smokovci som rýchlo vbehol do najbližšieho baru na pivo. Lebo som mal len 20 minút kým šiel vlak do Horného Smokovca na ubytovanie.\n Čašníčka sa ma pýta že kde budem sedieť. Reku nikde, dám na stojáka 🙂\n\n Cestou na vlak som objavil Večierku a nakúpil si potraviny. Predavačovi hovorím že mi zachrániťl večer. A on že ryžu a soľ nemám. Reku ale máte pivo a slivovicu. Čo viac treba? 🙂\n\n Inak v podstate celé Tatry sú tak trochu zvláštne. Neváhajú tu všetko vyrúbať, aby boli zjazdovky ale pridané služby minimálne. Nielenže je všetko zavreté, ale v podstate ani lampa vám nesvieti. \n\n Spím v penzióne, sám na izbe, reku sa vyspím. Ale vedľa sú nejaký hlučný hotentóti. Ešte chvíľu a idem použiť svoj šarm 🙂\n Po 3 dňoch sprcha. Ešteže mobil nevie zachytiť smrad keď som sa vyzul 😀\n\n Ďalšie dni budú zaujímavé, asi nepôjde všetko podľa plánu. \n\n Ďakujem veľmi pekne za podporu pre deti zo zbierky 🙂\n\n #tatrypomahajudetom #vysoketatry #zapadnetatry #hightatras #pomocpredeti #ludialudom #zvjs\n\n https://www.transparentneucty.sk/…\n\n https://www.ludialudom.sk/vyzvy/18505 Meer weergeven",
+            "photos": [
+                {
+                    "url": "assets/photos/den3-foto1.jpg",
+                    "caption": "Dnes"
+                },
+                {
+                    "url": "assets/photos/den3-foto2.jpg",
+                    "caption": "Deň 3"
+                },
+                {
+                    "url": "assets/photos/den3-foto3.jpg",
+                    "caption": "Zbojnícka"
+                },
+                {
+                    "url": "assets/photos/den3-foto4.jpg",
+                    "caption": "Cestou dole"
+                }
+            ],
+            "facebookUrl": "https://www.facebook.com/radoslav.hyza/posts/10234314581342006",
+            "initialLikes": 25
+        },
+        {
             "id": "day-2",
             "dayNumber": 2,
             "date": "8. septembra 2026",
