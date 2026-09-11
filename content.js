@@ -203,6 +203,34 @@ window.SITE_DATA = {
   // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
         {
+            "id": "day-5",
+            "dayNumber": 5,
+            "date": "11. septembra 2026",
+            "location": "Sliezsky dom ➔ Tatranská Polianka ➔ Vyšné Hágy ➔ Popradské pleso",
+            "title": "Deň 5: Upršaná presúvacia etapa zo Sliezskeho domu na Popradské pleso",
+            "text": "TATRY POMÁHAJÚ DEŤOM 2026 🏔👊\n\n Deň 5: 22 km, 560 m hore, 710 m dole. Sliezsky dom 1670 m - Tatranská Polianka 1000 m - Vyšné Hágy 1100 m - Popradské pleso 1500 m.\n\n Dnes vám predstavím 6 ročného Janka zo Štrby. Narodil sa predčasne s trojkomorovým hydrocefalusom. Aj napriek tomu že trpí emočnými kolapsami a má mierne mentálne zaostávanie tak je to usmievavý chlapček. Len musí neustále cvičiť, rehabilitovať a pod. Pomôžme aj Jankovi 😉... Ráno vyzeralo jak v Mordore. Hmla, vietor a do toho silný dážď. Sauron sa vyřádil. Dnešok som teda využil ako presúvaciu etapu na Popradské pleso. Bola možnosť ísť cez Ostrvu 10 km, alebo po asfaltke naokolo 22 km.\n\n V tom počasí sa mi moc nechcelo ísť cez Ostrvu. Tak som sa rozhodol ísť dole a potom ďalej po asfaltke. Išiel som celkom rýchlo, ale samozrejme som zmokol a bol mokrý.\n\n Tešil som sa že vo Vyšných Hágoch si dám teplý čaj. Ale bar pri stanici vyzeral byť mimo provoz pekne dlouho 🫣 Neostávalo mi nič iné, len sa zobrať uzimený a mokrý ďalej. \n Po 6 hodinách som došiel na Popradské pleso. Chvalabohu, lebo už som mal toho plné zuby. \n\n Hneď som sa šiel ubytovať a v momente do teplej sprchy a dať sušiť totálne mokré veci. Našťastie bolo kde, lebo inak bych mal problém. Hlavne topánky.\n\n Na izbe si 2 chalani všimli môj plagát na ruksaku a prispeli deťom 25 eur. Veľká vďaka. Ďakujem aj majiteľovi Horského hotela Popradské pleso za zľavu na najbližšie 2 dni čo tu budem 😉👍\n\n        \n\n \n\n https://www.ludialudom.sk/vyzvy/18505\n\n https://tatry-pomahaju-detom-2026.pages.dev/",
+            "photos": [
+                {
+                    "url": "assets/photos/den5-foto1.jpg",
+                    "caption": "Deň 5"
+                },
+                {
+                    "url": "assets/photos/den5-foto2.jpg",
+                    "caption": "Deň 5"
+                },
+                {
+                    "url": "assets/photos/den5-foto3.jpg",
+                    "caption": "Dnes"
+                },
+                {
+                    "url": "assets/photos/den5-foto4.jpg",
+                    "caption": "Ráno na Sliezskom dome"
+                }
+            ],
+            "facebookUrl": "https://www.facebook.com/radoslav.hyza/posts/10234336274084311",
+            "initialLikes": 25
+        },
+        {
             "id": "day-4",
             "dayNumber": 4,
             "date": "10. septembra 2026",
