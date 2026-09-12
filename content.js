@@ -203,6 +203,38 @@ window.SITE_DATA = {
   // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
         {
+            "id": "day-6",
+            "dayNumber": 6,
+            "date": "12. septembra 2026",
+            "location": "Popradské pleso ➔ Chata pod Rysmi ➔ Rysy ➔ Popradské pleso",
+            "title": "Deň 6: Výstup na Rysy a rozprávková inverzia",
+            "text": "TATRY POMÁHAJÚ DEŤOM 2026 🏔👊\n\n Deň 6: 12 km, 1060 m hore aj dole. Popradské pleso 1510 m - Chata pod Rysmi 2245 m - Rysy 2499 m a späť. \n\n Spolubývajúci v noci strašne chrápal. Bylo to k nesnesení. Raz som musel ísť k nemu. Našťastie nechrápal celú noc 🙂... Ráno som sa zobudil totálne bez energie. Vyšťavený. Hlavne psychicky. Rozmýšľam stále ako podporiť zbierku pre deti. Neviem, je to ťažké. \n\n Tak som sa taký nijaký vybral na Rysy. Reku mám čas, aj predpoveď hovorila že poobede bude lepšie počasie. Stúpaním k Žabím plesám som sa zahrial. Lebo celý čas sa šlo v hmle, bola celkom zima. Hlavne keď som musel čakať 45 minút pod rebríkmi. Aj napriek nečasu šlo veľa ľudí. Hlavne Poliakov a Maďarov.\n\n Pri Chate pod Rysmi občas nesmelo vykuklo Slniečko. Išiel som zatiaľ na chatu dať si čaj a kapustnicu. Potom som pomaly stúpal na vrchol. Ako som sa blížil hore, tak začalo azúro 🙂\n\n Hore to bola jednoducho almázia, turistická rozprávka. Nie je nad to keď zažijete inverziu. Mraky ako perinky pod vami, alebo sa prevaľujú cez štíty 😊\n Bolo krásne vidieť ako trčí Gerlach, Vysoká, Kriváň...\n\n Toto ma strašne dobilo energiou, neskutočne. Hore som pobudol 45 minút a potom sa v pohode vybral celý šťastný dole 😊 Veď posúďte fotky. \n\n Ja tento trek dám, verím tomu. Akurát bude výzva Roháče - reťaze. \n\n A ďakujem všetkým za podporu detí a ich rodín 😉\n\n          \n\n \n\n https://www.ludialudom.sk/vyzvy/18505\n\n https://tatry-pomahaju-detom-2026.pages.dev/",
+            "photos": [
+                {
+                    "url": "assets/photos/den6-foto1.jpg",
+                    "caption": "Dnes"
+                },
+                {
+                    "url": "assets/photos/den6-foto2.jpg",
+                    "caption": "Ostrva"
+                },
+                {
+                    "url": "assets/photos/den6-foto3.jpg",
+                    "caption": "Nebral som nič navyše na chatu, nabudúce 🙂"
+                },
+                {
+                    "url": "assets/photos/den6-foto4.jpg",
+                    "caption": "Stúpanie k Žabím plesám"
+                },
+                {
+                    "url": "assets/photos/den6-foto5.jpg",
+                    "caption": "Trochu sa dačo odkrýva"
+                }
+            ],
+            "facebookUrl": "https://www.facebook.com/radoslav.hyza/posts/10234348090219707",
+            "initialLikes": 25
+        },
+        {
             "id": "day-5",
             "dayNumber": 5,
             "date": "11. septembra 2026",
