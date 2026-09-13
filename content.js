@@ -203,6 +203,38 @@ window.SITE_DATA = {
   // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
         {
+            "id": "day-7",
+            "dayNumber": 7,
+            "date": "13. septembra 2026",
+            "location": "Popradské pleso ➔ Hincové plesá ➔ Kôprovské sedlo ➔ Kôprovský štít ➔ Štrbské pleso ➔ Štrba",
+            "title": "Deň 7: Výstup na Kôprovský štít a zostup na Štrbské pleso",
+            "text": "TATRY POMÁHAJÚ DEŤOM 2026 🏔👊\n\n Deň 7: 16 km, 1020 m hore, 1200 m dole. Popradské pleso 1510 m - Kôprovský štít 2363 m - Štrbské pleso 1325 m. \n\n Dnes ráno som sa vybral na turistiku skôr ako včera keďže hlásili že poobede dôjde možno oblačnosť. Môj cieľ bol dnes logicky Kôprovský štít. Je to pekný nenáročný kopček 😉... Dole bolo celkom teplo, ale pri Hincových plesách bolo celkom veterno a chladno. A tak som opäť vytiahol zimné doplnky. Išlo sa mi dobre. V takýchto horších podmienkach sa mi šlape lepšie ako keď je teplo. \n\n Z Hincového plesa som do Kôprovského sedla vybehol rýchlo, za polhodinku. Ale odtiaľ je to ešte na vrchol aj tak 200m výškových. A posledná časť býva najťažšia.\n\n Po celý čas boli krásne výhľady, hlavne na Červené vrchy a Západné Tatry celkovo. Samozrejme aj výhľady na jednotlivé hrebene Vysokých Tatier boli krásne 🙂\n\n Akurát keď som došiel hore, tak sa začalo zaťahovať, ale stihol som to relatívne. Len nechápem moc ľudí, ktorí obsadia aj tak už malé miesto na vrchole a spravia si tam polhodinový piknik. Veď vídem hore, odfotím, pokochám sa a zídem nižšie kde nikomu nezavadzám.\n\n Dole sa mi šlo rýchlo, ale v podstate definitívne som odrovnal palicu. Mal som už predtým Northfinder palice, ale tieto sú hrozne nekvalitné 🤨 Strašne ľahko sa lámu. Zajtra možno pozriem na Štrbskom plese. Mali navyše vyradené palice aj na Chate pri Popradskom plese, ale tie boli nepoužiteľné. \n\n Zo Štrbského som sa zubačkou zviezol do Štrby, kde bolo rozumné ubytovanie za 27 eur.\n\n Ďakujem všetkým veľmi pekne za podporu detí a ich rodín 😉\n\n         \n\n \n\n https://www.ludialudom.sk/vyzvy/18505\n\n https://tatry-pomahaju-detom-2026.pages.dev/",
+            "photos": [
+                {
+                    "url": "assets/photos/den7-foto1.jpg",
+                    "caption": "Dnes"
+                },
+                {
+                    "url": "assets/photos/den7-foto2.jpg",
+                    "caption": "Hrebeň Bášt"
+                },
+                {
+                    "url": "assets/photos/den7-foto3.jpg",
+                    "caption": "Kamzík čaká 🙂"
+                },
+                {
+                    "url": "assets/photos/den7-foto4.jpg",
+                    "caption": "Vpravo Kôprovský"
+                },
+                {
+                    "url": "assets/photos/den7-foto5.jpg",
+                    "caption": "Tu zbližšia"
+                }
+            ],
+            "facebookUrl": "https://www.facebook.com/radoslav.hyza/posts/10234359273299277",
+            "initialLikes": 25
+        },
+        {
             "id": "day-6",
             "dayNumber": 6,
             "date": "12. septembra 2026",
