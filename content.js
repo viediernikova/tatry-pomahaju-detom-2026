@@ -203,6 +203,34 @@ window.SITE_DATA = {
   // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
         {
+            "id": "day-8",
+            "dayNumber": 8,
+            "date": "14. septembra 2026",
+            "location": "Štrbské Pleso ➔ Chata pod Soliskom ➔ Predné Solisko ➔ Štrbské Pleso",
+            "title": "Deň 8: Výstup zo Štrbského Plesa na Predné Solisko",
+            "text": "TATRY POMÁHAJÚ DEŤOM 2026 🏔👊\n\n Deň 8: 11 km, 810 m hore aj dole. Štrbské pleso 1325 m - Predné Solisko 2117 m a späť. \n\n Dnes vám predstavujem Amálku 8 rôčkov zo Svitu. Amálka sa narodila s ojedinelým ochorením kĺbov, ktoré nedovoľujú pohyb svalom. Amálka má golfové chodidlá a nemôže hýbať s ľavou rukou. Absolvovala už mnoho operácií, rehabilitácií. Najdôležitejšou pomôckou pre ňu je elektrický vozík 🙏... Dnes ma čakal len výstup na Predné Solisko. Počasie aj tak viac nejako nedovolilo. Bola hmla a hore nad 2000m husto pršalo.\n Hore som bol za čistý čas 1,5 hod. Niekedy sa mi ide v takýchto podmienkach lepšie. Akurát keď som vyšiel hore tak sa husto rozpršalo. Spravil som foto-video a mazal dole. Bolo treba dávať veľký pozor lebo sa šmýkalo a tam je to prudko dole. Aj som sa raz posadil na zadok 🙂\n\n Bol som prekvapený že pár ľudí šlo hore aj tak a nejakí sa nechali vyviezť lanovkou.\n Na Chate pod Soliskom som sa zahrial čajom a kapustnicou. Počas dňa som ešte riešil Slovenskú Sporiteľňu lebo za 2 týždne neboli schopný schváliť a zmeniť logo transparentného účtu. \n\n Posledné dni boli kvázi ľahšie oproti prvým 3 dňom, ale ešte ma čakajú ťažké dni.\n\n Síce sa zatiaľ vyzbieralo menej peňazí ako sme dúfali, ale veríme že peniažky ešte pribudnú 😉 Každopádne v mene rodín ďakujeme veľmi pekne. \n\n        \n\n \n\n https://www.ludialudom.sk/vyzvy/18505\n\n https://tatry-pomahaju-detom-2026.pages.dev/",
+            "photos": [
+                {
+                    "url": "assets/photos/den8-foto1.jpg",
+                    "caption": "Deň 8"
+                },
+                {
+                    "url": "assets/photos/den8-foto2.jpg",
+                    "caption": "Deň 8"
+                },
+                {
+                    "url": "assets/photos/den8-foto3.jpg",
+                    "caption": "Dnes"
+                },
+                {
+                    "url": "assets/photos/den8-foto4.jpg",
+                    "caption": "Deň 8"
+                }
+            ],
+            "facebookUrl": "https://www.facebook.com/radoslav.hyza/posts/10234369583437024",
+            "initialLikes": 25
+        },
+        {
             "id": "day-7",
             "dayNumber": 7,
             "date": "13. septembra 2026",
