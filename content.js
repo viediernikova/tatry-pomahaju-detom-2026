@@ -203,6 +203,38 @@ window.SITE_DATA = {
   // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
         {
+            "id": "day-9",
+            "dayNumber": 9,
+            "date": "15. septembra 2026",
+            "location": "Štrbské pleso ➔ Kriváň ➔ Tri Studničky ➔ Podbanské",
+            "title": "Deň 9: Výstup na Kriváň a zostup do Podbanského",
+            "text": "TATRY POMÁHAJÚ DEŤOM 2026 🏔👊\n\n Deň 9: 22,2 km, 1400 m hore, 1780 m dole. Štrbské pleso 1325 m - Kriváň 2494 m - Tri Studničky 1150 m - Nadbanské 950 m.\n\n Ospravedlňujem sa že dnešný report je takto neskoro. Ale vybuchlo mi ubytovanie na ďalšie 2 noci, tak som musel to riešiť. Našťastie všetko je ok 🙂... Po pár dňoch ma čakala etapa na ťažko. A rovno Kriváň. Vy čo ste ho už šli viete že to je sviňa kopec. Hlavne ten záver. Ale poďme po poriadku. \n\n Začiatok zo Štrbského je celkom v pohode, rovina. Hustý pekný les, išiel som tam v podstate sám. Ľudia začali pribúdať neskôr od kosodreviny. Ráno bola dole ešte inverzia. Aj hore bola ešte oblačnosť. \n\n Od Krivánskeho žľabu nastala pravá turistika 🙂 Pomaly, pomaly som sa škrábal hore, chodník celkom rozbitý. Posledných 100m výškových už sa šlo po štvornožky 🙂 Aj reťaze by sa tam hodili.\n\n Výhľady boli parádne, oblačnosť sa roztrhala. Hlavne Západné Tatry boli ako na dlani. Ale taktiež Liptov, Nízke Tatry a iné. \n Chvíľu som posedel a šiel dole. Trochu som mal obavy zo zostupu, ale šlo to. Chodník na Tri Studničky opravujú teraz vojaci. \n\n Dnešným dňom som definitívne opustil Vysoké Tatry a uvidíme čo mi prichystajú Západné Tatry. \n\n V mene rodín detí ďakujeme veľmi pekne, ktorí prispeli a ešte sa chystajú 🙂\n\n         \n\n \n\n https://www.ludialudom.sk/vyzvy/18505\n\n https://tatry-pomahaju-detom-2026.pages.dev/ Mehr ansehen",
+            "photos": [
+                {
+                    "url": "assets/photos/den9-foto1.jpg",
+                    "caption": "Dnes"
+                },
+                {
+                    "url": "assets/photos/den9-foto2.jpg",
+                    "caption": "Deň 9"
+                },
+                {
+                    "url": "assets/photos/den9-foto3.jpg",
+                    "caption": "Inverzia"
+                },
+                {
+                    "url": "assets/photos/den9-foto4.jpg",
+                    "caption": "Chopok, Ďumbier"
+                },
+                {
+                    "url": "assets/photos/den9-foto5.jpg",
+                    "caption": "Hustý pekný les"
+                }
+            ],
+            "facebookUrl": "https://www.facebook.com/radoslav.hyza/posts/10234382599642421",
+            "initialLikes": 25
+        },
+        {
             "id": "day-8",
             "dayNumber": 8,
             "date": "14. septembra 2026",
