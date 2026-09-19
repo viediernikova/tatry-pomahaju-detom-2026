@@ -203,6 +203,38 @@ window.SITE_DATA = {
   // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
         {
+            "id": "day-12",
+            "dayNumber": 12,
+            "date": "18. septembra 2026",
+            "location": "Račkova dolina ➔ Malý Baranec ➔ Baranec ➔ Žiarske sedlo ➔ Žiarska chata",
+            "title": "Deň 12: Jesenný prechod Západných Tatier z Račkovej doliny na Žiarsku chatu",
+            "text": "TATRY POMÁHAJÚ DEŤOM 2026 🏔👊\n\n Deň 12: 13,4 km, 1440 m hore, 1040 m dole. Račkova dolina 900 m - Malý Baranec 2044 m - Baranec 2182 m - Žiarske sedlo 1917 m - Žiarska chata 1300 m nocľah. \n\n Včera (štvrtok) bol oddychový. Aj keď ráno to tak nevyzeralo. Musel som ísť linkovým busom do Podbanského kde som mal spacák a karimatku, ktoré som si tam nechal aby som mal v stredu ľahší batoh. Mal som na to len 10 minút a bolo to 1 km od zastávky. Takže celý čas som utekal a ďakujem šoféro...vi autobusu že ma čakal 🙂 Taktiež ďakujem veľmi pekne manželom Privát Pallo Pribylina, kde som bol ubytovaný 2 noci a skvelo sa o mňa postarali 😊\n\n Dnes ráno ma hodili na štart do Račkovej doliny. Povedal som si že dnešok si dám na pohodu. Aj kvôli tomu že posledné 2 noci som mal zvýšenú teplotu. Ale to ma rozhodne nezastaví ísť ďalej 🙂\n\n Išiel som pre mňa novou trasou cez Malý Baranec na Baranec. Zo začiatku bol výživný stupák, potom sa to zmiernilo. Musím povedať že táto trasa sa mi viac páčila ako klasika zo Žiarskej doliny.\n\n Išiel som na pohodu a pritom si vychutnával krásnu jesennú prírodu Západných Tatier. Je tu krajšie ako vo Vysokých Tatrách. Dominuje červeno oranžovo zelená farba 🙂 Za celý deň som stretol 7 ľudí, nikde nikoho 🙂\n\n Po celý čas z hrebeňa krásne výhľady. Mohol som si porovnať jesennú trasu so zimnou, ktorú som šiel naposledy cez Baranec.\n Zo Žiarskeho sedla som pomerne svižne zbehol na Žiarsku chatu za asistencie ručania jeleňov. \n Taktiež veľmi pekne ďakujem Elenke zo Žiarskej chaty za ubytovanie a pomoc, ktorú mi poskytla na najbližšie 2 dni. Ste super 👌👍\n\n Podľa mapy.cz som dnes prešiel cez 4 vrcholy 2tisícoviek.\n\n V mene rodín detí ďakujeme veľmi pekne, ktorí prispeli a ešte sa chystajú  prispieť na pomoc deťom 🙂\n\n         \n\n \n\n https://www.ludialudom.sk/vyzvy/18505\n\n https://tatry-pomahaju-detom-2026.pages.dev/",
+            "photos": [
+                {
+                    "url": "assets/photos/den12-foto1.jpg",
+                    "caption": "Dnešná trasa"
+                },
+                {
+                    "url": "assets/photos/den12-foto2.jpg",
+                    "caption": "Tatry čakajú"
+                },
+                {
+                    "url": "assets/photos/den12-foto3.jpg",
+                    "caption": "Deň 12"
+                },
+                {
+                    "url": "assets/photos/den12-foto4.jpg",
+                    "caption": "Deň 12"
+                },
+                {
+                    "url": "assets/photos/den12-foto5.jpg",
+                    "caption": "Pod Tatrami"
+                }
+            ],
+            "facebookUrl": "https://www.facebook.com/radoslav.hyza/posts/10234416843458495",
+            "initialLikes": 25
+        },
+        {
             "id": "day-10",
             "dayNumber": 10,
             "date": "16. septembra 2026",
