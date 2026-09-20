@@ -203,6 +203,38 @@ window.SITE_DATA = {
   // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
         {
+            "id": "day-13",
+            "dayNumber": 13,
+            "date": "19. septembra 2026",
+            "location": "Žiarska chata ➔ Ostrý Roháč ➔ Plačlivé ➔ Tri Kopy ➔ Hrubá Kopa ➔ Baníkov ➔ Príslop ➔ Žiarska chata",
+            "title": "Deň 13: Náročný okruh hrebeňom Roháčov zo Žiarskej chaty",
+            "text": "TATRY POMÁHAJÚ DEŤOM 2026 🏔👊\n\n Deň 13: 13,6 km, 1600 m hore aj dole. Žiarska chata 1300 m - Ostrý Roháč 2088 m - Plačlivé 2125 m - Tri Kopy 2136 m - Hrubá Kopa 2166 m - Baníkov 2178 m - Žiarska chata 1300 m nocľah. \n\n Dnes ma čakal highlight tejto akcie. A to hlavný hrebeň Roháčov. Určite každý o ňom počul a kto ho šiel, uzná že je vhodný pre skúsených tutistov s pevnou vôľou, nohou a rukou 🙂 A hlavne čistou hlavou 😉... Najprv som šiel na Ostrý Roháč. Smerom od Plačlivého je to fajn, hlavne keď po dosiahnutí vrcholu som nepokračoval do exponovanej časti, ale otočil sa naspäť na Plačlivé. Navyše 5m reťaz sa tu dala obísť. \n\n Po Plačlivom prišiel jeden z vrcholov Tri Kopy. Hlavne prvá z nich mnou zamávala. Človek musí ostať plne sústredený a nešprtnúť 😀 Nakoniec som to nejako udýchal a preliezol všetky Tri Kopy. Hrubá Kopa je klasický choďák 😉\n\n Myslel som si že to najhoršie je za mnou, ale stúpanie na Baníkov ma vyviedlo z omylu. Reku vracať sa už nebudem. Asi ten hore ma má rád, keď mi to umožnil preliezť. No, nebolo mi tam všetko jedno, ale musel a chcel som ísť ďalej 🙂\n\n A potom z Baníkova cez Príslop na Žiarsku chatu to už bolo celkom v pohode. Opäť s blákaním jeleňa a bez medveďa.\n\n Dámi a páni, pomaly sa blížime do finále. Cieľ je zajtra Zuberec Zverovka. Verím že všetko bude ok. Ale zajtrajšia etapa nebude zadarmo. Bude ešte náročná aj fyzicky aj psychicky. \n\n Podľa mapy.cz som dnes prešiel cez 11 vrcholov 2tisícoviek.\n\n V mene rodín detí ďakujeme veľmi pekne, ktorí prispeli a ešte sa chystajú  prispieť na pomoc deťom 🙂\n\n Opäť chcem poďakovať Elenke zo Žiarskej chaty za super starostlivosť. Ďakujem vám veľmi pekne 👌\n\n        \n\n \n\n https://www.ludialudom.sk/vyzvy/18505\n\n https://tatry-pomahaju-detom-2026.pages.dev/",
+            "photos": [
+                {
+                    "url": "assets/photos/den13-foto1.jpg",
+                    "caption": "Dnes"
+                },
+                {
+                    "url": "assets/photos/den13-foto2.jpg",
+                    "caption": "Dobré ránko 🙂"
+                },
+                {
+                    "url": "assets/photos/den13-foto3.jpg",
+                    "caption": "Plačlivé"
+                },
+                {
+                    "url": "assets/photos/den13-foto4.jpg",
+                    "caption": "Ostrý Roháč"
+                },
+                {
+                    "url": "assets/photos/den13-foto5.jpg",
+                    "caption": "Reťaze here we go 🙂"
+                }
+            ],
+            "facebookUrl": "https://www.facebook.com/radoslav.hyza/posts/10234428953841247",
+            "initialLikes": 25
+        },
+        {
             "id": "day-12",
             "dayNumber": 12,
             "date": "18. septembra 2026",
