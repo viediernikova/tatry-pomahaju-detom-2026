@@ -203,6 +203,22 @@ window.SITE_DATA = {
   // Zoznam dní denníka: Deň 0 je aktuálny živý záznam zo štartu, Úvod je predštartový príspevok
   diary: [
         {
+            "id": "day-14",
+            "dayNumber": 14,
+            "date": "20. septembra 2026",
+            "location": "Žiarska chata ➔ Zuberec – Zverovka",
+            "title": "Deň 14: Cieľ – Zuberec Zverovka po 14 náročných dňoch",
+            "text": "TATRY POMÁHAJÚ DEŤOM 2026 🏔👊\n\n Deň 14: CIEĽ - Zuberec Zverovka o 14:40 👍🥰\n\n Dámi a páni po 14 dňoch konečne v cieli, presné km a prevýšenie dám neskôr. Musím povedať že som fakt vyflusnutý, mám toho dosť. Preto som aj na záver vynechal Škriniarky a Salatín, aj z hľadiska bezpečnosti keďže som mal ťažký ruksak.\n\n Ďakujem vám všetkým veľmi pekne za podporu, hlavne mojim láskam Kataríne Skalickej a malému Radkovi, rodine, priateľom, známym. Zvlášť veľmi ďakujem Jozefovi Kubánimu za veškerú podporu a všetkým horským chatám, ktoré mi veľmi pomohli 👌\n\n A hlavne ďakujem všetkým ktorí pomohli deťom a verím že ich ešte podporíme ❤️ Oni naozaj tú pomoc potrebujú a napríklad 10 eur keď prispejete, aj to pomôže 😊\n\n https://www.ludialudom.sk/vyzvy/18505\n\n https://tatry-pomahaju-detom-2026.pages.dev/",
+            "photos": [
+                {
+                    "url": "assets/photos/den14-foto1.jpg",
+                    "caption": "Cieľ: Zuberec – Zverovka (1 025 m n. m.)"
+                }
+            ],
+            "facebookUrl": "https://www.facebook.com/radoslav.hyza/posts/10234437406772565",
+            "initialLikes": 25
+        },
+        {
             "id": "day-13",
             "dayNumber": 13,
             "date": "19. septembra 2026",
